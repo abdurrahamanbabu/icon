@@ -1,0 +1,30 @@
+.icon-showcase {
+    width: 316px;
+    background: var(--icon-showcase-bg, #e3e3e2);
+    position: absolute;
+    height: 250px;
+    right: 28px;
+    margin-top: -1px;
+    box-shadow: 1px 3px 4px 2px var(--icon-showcase-shadow, #01010170);
+    border-radius: 7px;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    flex-flow: wrap;
+}
+
+
+
+.icon-showcase div {
+    background: var(--icon-item-bg, #e6e8ea);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 3px;
+    color: var(--icon-item-color, #3c3737e0);
+    border: 1px solid var(--icon-item-border, #f1f1f1);
+}
