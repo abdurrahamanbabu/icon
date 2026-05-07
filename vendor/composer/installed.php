@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'abdur-rahaman/icon',
-        'pretty_version' => '1.4',
-        'version' => '1.4.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'd37fb51c078575eb62658ab9a16ee88a680cbdcc',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'abdur-rahaman/icon' => array(
-            'pretty_version' => '1.4',
-            'version' => '1.4.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'd37fb51c078575eb62658ab9a16ee88a680cbdcc',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
