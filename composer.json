@@ -1,0 +1,40 @@
+{
+    "name": "abdur-rahaman/icon",
+    "version": "1.0.0",
+    "description": "Icon package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AbdurRahaman\\Icon\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AbdurRahaman\\Icon\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdur Rahaman",
+            "email": "abdur.babu84@gmail.com"
+        }
+    ],
+    
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^8.1"
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AbdurRahaman\\Icon\\IconServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
