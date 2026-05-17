@@ -8,8 +8,8 @@ if (!function_exists('iconAssets')) {
 }
 
 if (!function_exists('iconInput')) {
-    function iconInput()
+    function iconInput($icon = null)
     {
-        return view('icon::input');
+        return view('icon::input', compact('icon'));
     }
 } 
